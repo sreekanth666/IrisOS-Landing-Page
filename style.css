@@ -1,0 +1,144 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+*{
+    font-family: 'Inter', sans-serif;
+    color: #123354;
+}
+body{
+    background-color: #f5f7fa;
+}
+
+.container{
+padding-left: 3rem;
+padding-right: 3rem;
+display: grid;
+grid-template-rows: auto auto auto auto auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.navbar p{
+    padding: 1rem;
+}
+
+.new-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new{
+    background-color: #e7eaf0;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.introduction{
+    background-color: #e7eaf0;
+    margin-top: 3rem;
+    border-radius: 50px;
+    padding: 2rem;
+    text-align: center;
+}
+h1{
+    font-size: 4rem;
+}
+.introduction p{
+    color: #48617c;
+    font-size: x-large;
+}
+a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    color: #15a6f0;
+    padding: 2rem;
+}
+.introduction .image{
+    margin-top: 2rem;
+    width: 100%;
+    height: 500px;
+    background-image: url(https://i.pinimg.com/originals/0f/b2/88/0fb288a519fdb745d0b773d87a6aaf2e.gif);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 40px;
+}
+
+.product{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 4%;
+    text-align: center;
+}
+.product p{
+    color: #48617c;
+    font-size: x-large;
+}
+.iris-grid{
+    background-color: #e7eaf0;
+    margin-top: 3rem;
+    border-radius: 50px;
+    padding: 2rem;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+.computers{
+    background-color: #e7eaf0;
+    margin-top: 3rem;
+    border-radius: 50px;
+    padding: 2rem;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.extra{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 4%;
+    text-align: center;
+}
+.extra p{
+    color: #48617c;
+    font-size: x-large;
+}
+.help{
+    background-color: #ffffff;
+    margin-top: 3rem;
+    border-radius: 50px;
+    padding: 2rem;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+.blog{
+    background-color: #ffffff;
+    margin-top: 3rem;
+    border-radius: 50px;
+    padding: 2rem;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.footer{
+    background-color: #e7eaf0;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+.footer-link a{
+    font-size: small;
+    color: #123354;
+    font-weight: normal;
+    text-decoration: underline;
+}
